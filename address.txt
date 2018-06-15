@@ -1,0 +1,43 @@
+// "(.)" represents the address which points to correct static adrress.
+
+AMMO
+**************************************************************************
+1.02D5A1A8 (.)
+2.0EA29D74
+
+OFFSET 0
+02D5A1A8(hex)
+
+AFTER SCAN -> POINTER : 02D5A48C
+
+(ACCESS POINTER)
+OFFSET 14
+
+02D5A478(hex)
+
+AFTER SCAN -> POINTER: (LOTS) 
+02D5A3DC (.)
+
+OFFSET 384
+02D5A058(hex)
+
+AFTER SCAN ->(AND THREE GREENS NICE)
+00509B74 (THIS ONE POINTS TO SAME VALUE)
+WE FOUND A STATIC ADDRESS TO AMMO VALUE.
+
+(TO BE SURE CHANGE VALUE FOR GREEN ONE, IT SHOULD AFFECT THE GAME VALUE)
+
+SO WE NEED ->(OFFSET 0 OFFSET 14 OFFSET 384 00509B74 )
+
+
+HEALTH
+*******************************************************************************
+1.02D5A150(.)
+2.0EA29D1C
+
+OFFSET F8
+02D5A058(hex)
+
+AFTER SCAN -> 00509B74(WORKS)
+
+SO WE NEED ->(OFFSET F8 00509B74)
