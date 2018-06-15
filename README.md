@@ -22,15 +22,16 @@ Memory Hacking Modern Warfare,Call Of Duty, Black Ops,... is a lot more easier s
 ## How To Make
 We need to find the addresses to which we need to write into.  
 Cheat Engine is a pretty good tool for this purpose.  
-> Attach Cheat Engine to the game.  
-> Find address of variable containing the current ammo value(shoot to change values and refine scan results).  
-> Since the address we need is a static one, we need to find the pointer containing this address and the offset(Use "find what access this address").  
-> Using the above option, we can refine(one can check if the obtained address is correct by manually adding the address and changing value, doing so would change the value in the game) and find the hex value of address.  
-> we can search this hex value in Cheat engine (again need to refine) to get the corresponding address.  
-> Repeat the process until the possible values of addresses in hex scan are green in colour(they are static addresses).  
-> Keep note of all the pointers and their corresponding offsets(Also [uploaded](address.txt) in this project).  
-> Repeat the process for health.  
 
-> Using this values we now Program the hack(done in c++ using visual studio as a console application).  
-> The [code](Assault%20Cube%20Hack.cpp) used to create the console application has been commented briefly.  
-> The file is in multibyte character set.  
+Attach Cheat Engine to the game.  
+Find address of variable containing the current ammo value(shoot to change values and refine scan results).  
+Since the address we need is a static one, we need to find the pointer containing this address and the offset(Use "find what access this address").  
+Using the above option, we can refine(one can check if the obtained address is correct by manually adding the address and changing value, doing so would change the value in the game) and find the hex value of address.  
+we can search this hex value in Cheat engine (again need to refine) to get the corresponding address.  
+Repeat the process until the possible values of addresses in hex scan are green in colour(they are static addresses).  
+Keep note of all the pointers and their corresponding offsets(Also [uploaded](address.txt) in this project).  
+Repeat the process for health.  
+
+Using this values we now Program the hack(done in c++ using visual studio as a console application).  
+The [code](Assault%20Cube%20Hack.cpp) used to create the console application has been commented briefly.  
+The file is in multibyte character set.  
