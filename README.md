@@ -1,19 +1,19 @@
 # Memory Hacking
-In a nutshell, changes the memory addresses of the game after it gets into it.
-Most of the games can be hacked in a similar way(some being way easier).
-This is a console based application.
+In a nutshell, changes the memory addresses of the game after it gets into it.  
+Most of the games can be hacked in a similar way(some being way easier).  
+This is a console based application.  
 
 ## Programs Used
-[Visual Studio 2017](https://www.visualstudio.com/vs/community/)
-[Cheat Engine](https://cheatengine.org/)
-[Assault Cube - 1.2.0.2](https://assault.cubers.net/download.html)
+[Visual Studio 2017](https://www.visualstudio.com/vs/community/)  
+[Cheat Engine](https://cheatengine.org/)  
+[Assault Cube - 1.2.0.2](https://assault.cubers.net/download.html)  
 
 ## How to Use
-Run the game
-Run the exe [file](Assault%20Cube%20Hack.exe)
-> Press F1 to turn on/off unlimited ammo
-> Press F2 to turn on/off unlimited health
-> Press INSERT to exit
+Run the game  
+Run the exe [file](Assault%20Cube%20Hack.exe)  
+> Press F1 to turn on/off unlimited ammo  
+> Press F2 to turn on/off unlimited health  
+> Press INSERT to exit  
 
 ## About
 The reason for using Assault Cube is that the game is about 40 MB and is a FPS game.  
