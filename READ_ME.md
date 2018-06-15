@@ -31,6 +31,6 @@ Cheat Engine is a pretty good tool for this purpose.
 > Keep note of all the pointers and their corresponding offsets(Also [uploaded](address.txt) in this project).  
 > Repeat the process for health.  
 
-> Using this values we now Program the hack(done in c++ using visual studio as a win32 console application).  
-> The [code](Assault%20Cube%20Hack/Assault%20Cube%20Hack/Assault%20Cube%20Hack.cpp) used has already been commented briefly.  
+> Using this values we now Program the hack(done in c++ using visual studio as a console application).  
+> The [code](Assault%20Cube%20Hack.cpp) used to create the console application has been commented briefly.  
 > The file is in multibyte character set.  
