@@ -35,3 +35,5 @@ Repeat the process for health.
 Using this values we now Program the hack(done in c++ using visual studio as a console application).  
 The [code](Assault%20Cube%20Hack.cpp) used to create the console application has been commented briefly.  
 The file is in multibyte character set.  
+
+[guidedhacking.com](https://guidedhacking.com) helped me in the making of the program.
