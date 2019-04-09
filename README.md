@@ -8,6 +8,11 @@ This is a console based application.
 [Cheat Engine](https://cheatengine.org/)  
 [Assault Cube - 1.2.0.2](https://assault.cubers.net/download.html)  
 
+## Requirements to run program
+* ucrtbased.dll
+* vcruntime140d.dll
+* msvcp140d.dll
+
 ## How to Use
 Run the game  
 Run the exe [file](Assault%20Cube%20Hack.exe)  
@@ -37,3 +42,11 @@ The [code](Assault%20Cube%20Hack.cpp) used to create the console application has
 The file is in multibyte character set.  
 
 [guidedhacking.com](https://guidedhacking.com) helped me in the making of the program.
+
+## Issues
+* The Application was Unable to Start Correctly (0xc000007b)  
+Usually this happens after you upgrade from an earlier version of Windows and something goes wrong with certain files or programs.  
+Possible fixes:
+* Reinstall Microsoft .NET framework
+* Reinstall Microsoft Visual C++ Redistributable Packages
+* Run your application as administrator
